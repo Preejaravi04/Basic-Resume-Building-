@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>RESUME</h2>
+<button type="button" class="collapsible">Open</button>
+<div class="content">
+  <main class="resume-contents">
+    <section class="left-section">
+    <div class="left-section-contents">
+       <div class="profile">
+        
+    <p class="name">PREEJA RAVI - BSC Computer Science</p>
+    </div>
+    <div class="contact-info">
+    <p class="left-title">CONTACT INFO</p>
+    <ul>
+    <li><i class="fa fa-phone"></i>9345795648
+    </li>
+    <li><i class="fa fa-envelope"></i>preejaravi04@gmail.com
+    </li>
+    <li><i class="fa fa-map-marker"></i>No22 PP Amman Koil Street Pallavaram Chennai-43
+    </li>
+    </ul>
+    </div>
+    <section class="right-section">
+        <div class="right-section-contents">
+        <section class="about gap">
+        <div class="right-title">CAREER OBJECTIVE</div>
+        <p class="Career Objective-contents">
+            Enthusiastic and highly motivated computer science graduate 
+            seeking an entry level position to leverage my strong 
+            foundation in computer science principles, programming 
+            languages and problem-solving skills. Eager to apply my 
+            academic knowledge and practical experience gained 
+            through internship and projects to contribute effectively to a 
+            dynamic team, while continuously learning and growing in a 
+            professional environment.
+        </p>
+        </section>
+    <div class="skills">
+    <p class="left-title">TECHNICAL SKILLS</p>
+    <ul>
+    <li><p>JAVA</p></li>    
+    <li><p>PYTHON</p></li>
+    <li><p>C & C++</p></li>
+    <li><p>HTML</p></li>
+    <li><p>SQL,MySql</p></li>
+    <li><p>PHP</p></li>
+    <li><p>JAVA SCRIPT</p></li>
+    </ul>
+    </div>
+   
+    <div class="references">
+    <p class="left-title">SOFT SKILLS</p>
+    <div class="refer">
+        <ul>
+            <li><p>Communication</p></li>    
+            <li><p>Leadership</p></li>
+            <li><p>Team Management</p></li>
+            <li><p>Creative Thinking</p></li>
+           
+            </ul>
+    
+    </div>
+    <div class="references">
+       <p class="left-title">ACADEMIC PROJECTS</p>
+       <div class="refer">
+        <li>Website Designing using HTML and PHP(Designed online bakery Website)</li>    
+        <li>Major Project on Machine Learning(Created a major project to do the classification of the Iris Flower)</li>
+        <li>Machine Learning Project(Created a teachable machine learning model designing the rock/paper/scissor game)</li>
+        <li>Data Analysis using python (Heart Disease Dataset)</li>
+       
+       </div>
+    </div>
+    </div>
+    </section>
+   <br>
+   <br>
+   
+   <section class="education gap">
+    <div class="right-title">EDUCATION</div>
+    <div class="education-contents">
+    <div class="education-left">
+    <p class="education-school">ST Theresa Girls Hr Sec School - SSLC(2018)</p>
+<p> Percentage-86% </p>
+    </div>
+
+   
+    </div>
+    </div>
+    <div class="education-contents">
+    <div class="education-left">
+    <p class="education-school-name">ST Theresa Girls Hr Sec School - HSC(2020)</p>
+    <p> Percentage-76% </p>
+    </div>
+    </div>
+    <div class="education-contents">
+    <div class="education-left">
+    <p class="education-school-name">M.O.P Vaishnav college for women - 2023</p>
+    </div>
+    <p class="education-desc">
+   OVERALL CGPA - 7.85
+    </p>
+    </div>
+    </div>
+    </section>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
